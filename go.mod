@@ -1,6 +1,6 @@
 module aci-adr-go-base
 
-go 1.20.4
+go 1.20
 
 require (
 	github.com/golang/snappy v0.0.1 // indirect
