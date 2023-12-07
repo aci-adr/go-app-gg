@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: go-app-gg
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=go-app-gg"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
