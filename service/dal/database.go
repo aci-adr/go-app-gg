@@ -2,7 +2,7 @@ package dal
 
 import "go.mongodb.org/mongo-driver/bson"
 
-type DBService[T any] interface {
+type Database[T any] interface {
 	GetOne(filter bson.D) (T, error)
 	Get(filter bson.D) ([]T, error)
 	CreateOne(document T) (T, error)
